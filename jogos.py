@@ -13,7 +13,7 @@ def escolher_jogo():
 
     if (jogo == 1):
         print('Iniciando o jogo da Adivinhação...')
-        adivinhacao.jogar()
+        adivinhacao.play_game()
     elif (jogo == 2):
         print('Iniciando o jogo da Forca...')
         forca.play_game()
