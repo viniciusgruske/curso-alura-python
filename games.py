@@ -1,7 +1,7 @@
-import adivinhacao
-import forca
+import divination
+import gallow
 
-def escolher_jogo():
+def select_game():
     print('*******************')
     print('Escolha o seu jogo!')
     print('*******************')
@@ -9,14 +9,14 @@ def escolher_jogo():
     print('[1] Adivinhação')
     print('[2] Forca')
 
-    jogo = int(input('Qual jogo você quer jogar? '))
+    game = int(input('Qual jogo você quer jogar? '))
 
-    if (jogo == 1):
+    if (game == 1):
         print('Iniciando o jogo da Adivinhação...')
-        adivinhacao.play_game()
-    elif (jogo == 2):
+        divination.play_game()
+    elif (game == 2):
         print('Iniciando o jogo da Forca...')
-        forca.play_game()
+        gallow.play_game()
 
 if (__name__ == '__main__'):
-    escolher_jogo()
+    select_game()
